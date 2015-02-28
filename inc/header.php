@@ -19,8 +19,8 @@ header("Pragma: no-cache");   // HTTP/1.0
 <body>
 
 <div id="logo">
-	<a href="default.php" id="jLogo">Urban</a>
-	<a href="default.php" id="quoteLogo">&nbsp;&nbsp;&nbsp;Docs</a>
+	<a href="index.php" id="jLogo">Urban</a>
+	<a href="index.php" id="quoteLogo">&nbsp;&nbsp;&nbsp;Docs</a>
 </div>
 <div id="header">
 <table id="searchtable">
@@ -29,7 +29,7 @@ header("Pragma: no-cache");   // HTTP/1.0
 		<form id="floatleft" action="quote.php" method="get" name="nav">
 			<input id="search" type="text" value="<?php if(!empty($_GET['search'])){echo $_GET['search'];} ?>" placeholder="Search..." name="search"></input>
 			<input type="submit" style="position: absolute; left: -9999px"></input>
-			<input id="homebtn" type="submit" value="Search" onclick="nav.action='home.php'"></input>
+			<input id="lookbtn" type="submit" value="Search" onclick="nav.action='search.php'"></input>
 		</form>
 	<td>
 </tr>
