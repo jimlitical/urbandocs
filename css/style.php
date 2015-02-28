@@ -39,7 +39,7 @@ form{
 	font-family: 'Merriweather Sans','serif';
 	font-weight: bold;
 	font-size: 1.6em;
-	color: #2b9f7f;
+	color: #9EE5FF;
 	text-decoration: none;
 
 	transition: 0.3s;
@@ -57,7 +57,7 @@ form{
 	top: 4.2%;
 	left: 10.8%%;
 	opacity: 1;
-	color: #2b9f7f;
+	color: #9EE5FF;
 	transition: 0.2s;
 }
 
