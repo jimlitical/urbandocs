@@ -1,0 +1,91 @@
+﻿<html>
+<head>
+    <title> Urban Docs </title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:800,400' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="http://rootsfw.org/wp-content/uploads/2014/01/Visualpharm-Ios7v2-Plants-Tree.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+</head>
+<body>
+
+    <div id="logo">
+        <a href="index.php" id="jLogo">Urban</a>
+	<a href="home.html" id="quoteLogo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Docs</a>
+    </div>
+    <div id="header">
+        <table id="searchtable">
+            <tr>
+                <td align="left">
+                    <form id="floatleft" action="quote.php" method="get" name="nav">
+                        <input id="search" type="text" placeholder="Search..." name="search"></input>
+                        <input type="submit" style="position: absolute; left: -9999px"></input>
+                        <input id="lookbtn" type="submit" value="Search" onclick="nav.action='search.php'"></input>
+                        <a href="createdoc.html"><span class="glyphicon glyphicon-plus-sign pluscss" aria-hidden="true"></span></a>
+                    </form>
+                <td>
+            </tr>
+        </table>
+
+        <div class="panel panel-default function">
+            <!--change sqrt(argument) to current function -->
+            <div class="panel-heading"> #include &lt;math.h&gt ceil(float)</div>
+            <div class="panel-body">
+                <h1>Explanation:</h1>
+                <p>
+                    <!--Description of function-->
+                    Description: The ceil function calculates nearest integer no smaller than argument.<br />
+                    Parameters: Float<br />
+                    Returns: Integer  <br />
+
+                </p>
+                <h1>Example:</h1>
+                <p>
+                    <!--example-->
+                    /*ceil example */<br>
+                    #include &lt;stdio.h&gt      /* printf */<br>
+                    #include &lt;math.h&gt       /* sqrt */<br>
+                    <br>
+                    int main ()<br>
+                    {<br>
+                    printf ("The ceiling of 17.6 is: ", ceil(17.6) );<br>
+                    return 0;<br>
+                    }<br>
+                    <!--end-->
+
+                    <h1>Output:</h1>
+                    <!--Chnage to reflect examples-->
+                <p>
+                    The ceiling of 17.6 is: 18<br>
+
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default rightlib">
+        <div class="panel-heading"> #include &lt;math.h&gt</div>
+        <div class="panel-body">
+            <p>
+                <!--Change or delete similar functions-->
+				<a href="abs.html">abs()</a><br>
+                <a href="floor.html">floor()</a><br>
+				<a href="pow.html">pow()</a><br>
+				<a href="sqrt.html">sqrt()</a><br>
+            </p>
+
+        </div>
+    </div>
+    </div>
+
+
+
+    </div>
+    </div>
+
+
+
+

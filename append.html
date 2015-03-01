@@ -1,0 +1,94 @@
+﻿<html>
+<head>
+    <title> Urban Docs </title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:800,400' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="http://rootsfw.org/wp-content/uploads/2014/01/Visualpharm-Ios7v2-Plants-Tree.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+</head>
+<body>
+
+    <div id="logo">
+        <a href="index.php" id="jLogo">Urban</a>
+		<a href="home.html" id="quoteLogo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Docs</a>
+    </div>
+    <div id="header">
+        <table id="searchtable">
+            <tr>
+                <td align="left">
+                    <form id="floatleft" action="quote.php" method="get" name="nav">
+                        <input id="search" type="text" placeholder="Search..." name="search"></input>
+                        <input type="submit" style="position: absolute; left: -9999px"></input>
+                        <input id="lookbtn" type="submit" value="Search" onclick="nav.action='search.php'"></input>
+                       <a href="createdoc.html"><span class="glyphicon glyphicon-plus-sign pluscss" aria-hidden="true"></span></a>
+                    </form>
+                <td>
+            </tr>
+        </table>
+
+        <div class="panel panel-default function">
+            <!--change pow(base,power) to current function -->
+            <div class="panel-heading"> #include &lt;string.h&gt append(string) </div>
+            <div class="panel-body">
+                <h1>Explanation:</h1>
+                <p>
+                    <!--Description of function-->
+                    Description: The append function adds to and lengthens string by adding characters to the end.<br />
+                    Parameters: string<br />
+                    Returns: string <br />
+
+                </p>
+                <h1>Example:</h1>
+                <p>
+                    <!--example-->
+                    /*at example */<br>
+                    #include &lt;stdio.h&gt      /* printf */<br>
+                    #include &lt;string.h&gt       <br>
+                    <br>
+                    int main ()<br>
+                    {<br>
+                    string cat = "Happy "<br>
+                    printf ("Cat becomes: " cat.append(Cat));<br>
+                    printf (cat)<br>
+
+                    return 0;<br>
+                    }<br>
+                    <!--end-->
+
+                    <h1>Output:</h1>
+                    <!--Change to reflect examples-->
+                <p>
+
+                    Cat becomes: Happy Cat <br>
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default rightlib">
+        <div class="panel-heading"> #include &lt;string.h&gt</div>
+        <div class="panel-body">
+            <p>
+                <!--Change similar functions-->
+                <!--<a href="pow.html">floor()</a><br>-->
+				                <!--Change or delete similar functions-->
+				<a href="at.html">at()</a><br>
+                <a href="length.html">length()</a><br>
+            </p>
+
+        </div>
+    </div>
+    </div>
+
+
+
+    </div>
+    </div>
+
+
+
+

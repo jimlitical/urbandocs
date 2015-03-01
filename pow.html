@@ -14,41 +14,68 @@
 	<a href="home.html" id="jLogo">Urban</a>
 	<a href="home.html" id="quoteLogo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Docs</a>
 </div>
+
 <div id="header">
 <table id="searchtable">
 <tr>
 	<td align="left">
-		<form id="floatleft" action="" method="get" name="nav">
+		<form id="floatleft" action="quote.php" method="get" name="nav">
 			<input id="search" type="text" placeholder="Search..." name="search"></input>
 			<input type="submit" style="position: absolute; left: -9999px"></input>
-			<input id="lookbtn" type="submit" value="Search" onclick="nav.action=''"></input>
+			<input id="lookbtn" type="submit" value="Search" onclick="nav.action='search.php'"></input>
 			<a href="createdoc.html"><span class="glyphicon glyphicon-plus-sign pluscss" aria-hidden="true"></span></a>
 		</form>
 	<td>
-</tr>	
+</tr>
 </table>
 
-<div class="panel panel-default homedesc">
-  <!--<div class="panel-heading"> </div> Changes to the correct library a function is in-->
+<div class="panel panel-default function">
+  <div class="panel-heading"> #include &lt;math.h&gt pow(base, power)</div>
   <div class="panel-body">
+	<h1>Explanation:</h1> <!-- Doesn't change-->
 	<p>
-			Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae libero sed felis luctus tempor. Vestibulum vel justo at sapien condimentum cursus in nec sapien.<br>
-				<h1>#include &lt;math.h&gt;</h1>
-				<a href="abs.html">abs()</a><br>
-                <a href="ceil.html">ceil()</a><br>
-				<a href="floor.html">floor()</a><br>
-				<a href="pow.html">pow()</a><br>
-				<a href="sqrt.html">sqrt()</a><br>
-				<h1>#include &lt;string.h&gt;</h1>
-				<a href="at.html">at()</a><br>
-				<a href="append.html">append()</a><br>
-                <a href="length.html">length()</a><br>
+	<!-- Our urban description-->
+	This homie takes in a base homie for the 1st parameter. The next homie parameter is the power number homie. 
+	</p>
+	<h1>Example:</h1> <!-- Doesn't change-->
+	
+	<!-- Show an example of the function below:-->
+	<p>/* pow example */<br>
+	takeDisNumbah = 7;<br>
+	powDatNumbahWitDisNumbah = 3;<br>
+	pow(takeDisNumbah, powDatNumbahWitDisNumbah);
+	</p>
+	
+	<h1>Output:</h1>
+	<p>
+	  343<br>
 	</p>
 
 </div>
 </div>
 </div>
 
+<div class="panel panel-default rightlib">
+
+  <div class="panel-heading"> #include &lt;math.h&gt</div><!-- Changes to the correct library a function is in-->
+  <div class="panel-body">
+	<p>
+                <!--Change or delete similar functions-->
+				<a href="abs.html">abs()</a><br>
+                <a href="ceil.html">ceil()</a><br>
+				<a href="floor.html">floor()</a><br>
+				<a href="sqrt.html">sqrt()</a><br>
+	</p>
+
+</div>
+</div>
+</div>
+</html>
+
+
+
+</div>
+</div>
 </html>
 
 
